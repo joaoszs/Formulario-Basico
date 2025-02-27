@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="" class="form">
+        <p class="titulo">Registre-se</p>
+        <p class="mensagem">inscreva-se agora e acesse o app</p>
+        <div class="formularios">
+            <label>
+                <input type="text" required>
+                <span>Primeiro nome</span>
+            </label>
+            <label>
+                <input type="text" required>
+                <span>Segundo nome</span>
+            </label>
+        </div>
+        <label>
+            <input type="text" required>
+            <span>E-mail</span>
+        </label>
+        <label>
+            <input type="password" required id="senha">
+            <span>Senha</span>
+            <span class="icon" id="toggleSenha">
+                <i class="far fa-eye-slash"></i>
+            </span>
+        </label>
+        <label>
+            <input type="password" required id="senhaConfirma">
+            <span>Confirme sua senha</span>
+            <span class="icon" id="toggleSenhaConfirma">
+                <i class="far fa-eye-slash"></i>
+            </span>
+        </label>
+        <button class="enviar">Enviar</button>
+        <p class="entrar">
+            Ja possui uma conta ?
+            <a href="/">Entrar</a>
+        </p>
+    </form>
+</body>
+</html>
