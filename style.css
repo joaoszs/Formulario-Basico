@@ -26,7 +26,7 @@ form{
 
 .titulo {
     font-size: 20px;
-    color: orange;
+    color: tomato;
     font-weight: 600;
     letter-spacing: 0.3px;
     position: relative;
@@ -42,13 +42,13 @@ form{
 }
 
 .entrar a {
-    color: orange;
+    color: tomato;
     text-decoration: none;
     transition: 0.3s;
 }
 
 .entrar a:hover {
-    color: orange;
+    color: tomato;
 }
 
 .formularios {
@@ -77,4 +77,38 @@ form{
     font-size: 0.9em;
     cursor: text;
     transition: 0.3s ease;
+}
+
+.form label input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+
+}
+
+.form label input:focus + span,
+.form label input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+}
+
+.form label input:valid + span {
+    color: tomato;
+}
+
+.enviar {
+    border: none;
+    outline: none;
+    background: tomato;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    transform: 0.3s ease;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(204, 150, 0);
+    color: #ffffff;
+    transition: 0.7s;
 }
